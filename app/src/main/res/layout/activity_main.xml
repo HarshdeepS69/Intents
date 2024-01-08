@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="To call"
+    android:textSize="30sp"
+    android:textColor="@color/black"
+    android:gravity="center"/>
+    <EditText
+        android:id="@+id/etPhoneNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Phone Number"
+        android:textColorHint="@color/black"
+        android:inputType="phone"
+        />
+    <Button
+        android:id="@+id/btnCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="CALL"
+        />
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="To send e-Mail"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:gravity="center"/>
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter e-Mail"
+        android:textColorHint="@color/black"
+        android:inputType="textEmailAddress"
+        />
+    <EditText
+        android:id="@+id/etSubject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Subject"
+        android:textColorHint="@color/black"
+        android:inputType="textEmailSubject"
+        />
+    <EditText
+        android:id="@+id/etMessagemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Message"
+        android:textColorHint="@color/black"
+        android:inputType="text"
+        />
+    <Button
+        android:id="@+id/btnSendEMAIL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="SEND e-Mail"
+        />
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="To send SMS"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:gravity="center"/>
+    <EditText
+        android:id="@+id/etPhoneNumSMS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Phone Number"
+        android:textColorHint="@color/black"
+        android:inputType="phone"
+        />  <EditText
+        android:id="@+id/etMsgSMS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Message"
+        android:textColorHint="@color/black"
+        android:inputType="text"
+        />
+    <Button
+        android:id="@+id/btnSendSMS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="SEND SMS"
+        />
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="To View URL"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:gravity="center"/>
+    <Button
+        android:id="@+id/btnviewURL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="View URL"
+        />
+</LinearLayout>
